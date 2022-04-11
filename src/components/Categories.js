@@ -26,7 +26,7 @@ const Categories = () => {
         <div className="container-fluid">
             <h1 className="text-center mt-4" style={{ fontFamily: 'Lobster' }}>{title}</h1>
             <div>
-                <Link to="/"><button className="ms-3 btn btn-outline-primary">Back</button></Link>
+                <Link to="/" className="ms-3 btn btn-outline-primary">Back</Link>
             </div>
             <div className='d-flex justify-content-evenly flex-wrap'>
                 {products.length > 0 && products[0].category === category ?
