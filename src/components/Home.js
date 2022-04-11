@@ -22,6 +22,7 @@ const Home = () => {
 
     return (
         <div className="home">
+            {console.log("test")}
             <h1 className='d-flex justify-content-center mt-4' style={{ fontFamily: 'Lobster' }}>Products</h1>
             <div className='d-flex justify-content-evenly flex-wrap'>
                 {products.length > 0 ?
