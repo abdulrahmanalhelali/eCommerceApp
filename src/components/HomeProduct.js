@@ -35,7 +35,7 @@ const Homeproduct = (props) => {
                         onMouseEnter={(e) => e.target.style.opacity = 0.3}
                         onMouseLeave={(e) => e.target.style.opacity = 0} />
                     :
-                    console.log("null", height)
+                    null
                 }
             </Link>
 

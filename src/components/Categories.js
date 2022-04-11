@@ -31,7 +31,6 @@ const Categories = () => {
             <div className='d-flex justify-content-evenly flex-wrap'>
                 {products.length > 0 && products[0].category === category ?
                     products.map(product => {
-                        console.log("peep")
                         return <HomeProduct product={product} key={product.id} />
                     })
                     :
